@@ -8,25 +8,24 @@ Full stack application with front end implemented with HTML/CSS and elements fro
 The user may enter any burger name to add into the menu, and this entry gets entered into the MySQL database. The initial burger entry is added as available on the menu and placed on the left side of the screen. The user may then "devour" any burger by clicking on the button, which moves it into the adjacent column and updates its status in the database.
 
 ## Demo
-To use the application, click (like https://the-burger-app.herokuapp.com/)
+To use the application, click [here](https://the-burger-app.herokuapp.com/)
 
-Image of App
 ![BurgerApp](public/assets/images/demo.png)
 
 ## Installation
 
 To run this application locally, first run this command in your git bash or terminal
 
-git clone https://github.com/danielladt/burger.git 
+    git clone https://github.com/danielladt/burger.git 
 
 Next, be sure to install the dependencies 
 
-npm install
+    npm install
 
 Also, be sure to add in your own password for your mysql workbench
 
 Lastly, run the node server locally
 
-node server.js
+    node server.js
 
 Now, open the local application on port 3000 at the URL: http://localhost:3000/.
