@@ -32,7 +32,6 @@ function objToSql(ob) {
   return arr.toString();
 }
 
-
 // Object for all our SQL statement functions.
 var orm = {
     //Selects all from database
